@@ -3,17 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Maname", serif;
 }
 
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: underline;
+
 }
 
 /* Estilos para los productos */
@@ -24,8 +27,8 @@ h1 {
 }
 
 .producto {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #f5f5f5c7;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
@@ -50,11 +53,12 @@ h1 {
     color: #333;
     margin-bottom: 10px;
     flex-grow: 1;
+    
 }
 
 .producto button {
-    padding: 10px 20px;
-    background-color: #28a745;
+    padding: 10px 30px;
+    background-color:  #b10099;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -63,23 +67,23 @@ h1 {
 }
 
 .producto button:hover {
-    background-color: #218838;
+    background-color: #6e235e;
 }
 
 /* Estilos del carrito */
 .carrito {
     margin-top: 20px;
-    background-color: #fff;
+    background-color:  #f5f5f5c7;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Estilo para los botones + y - en el carrito */
 .sumar-producto, .restar-producto {
-    padding: 5px 10px;
-    background-color: #28a745;
+    padding: 3px 6px;
+    background-color: #b10099;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -87,8 +91,11 @@ h1 {
     margin-left: 5px;
 }
 
-.sumar-producto:hover, .restar-producto:hover {
+.sumar-producto:hover{
     background-color: #218838;
+}
+.restar-producto:hover{
+    background-color: #d40b0b;
 }
 
 /* Responsive */
@@ -105,7 +112,7 @@ h1 {
 
 .boton-vaciar, .boton-comprar {
     padding: 10px 20px;
-    background-color: #dc3545;
+    background-color: #ff0019;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -113,14 +120,6 @@ h1 {
     margin-right: 10px;
 }
 
-.boton-comprar {
-    background-color: #007bff;
-}
-
 .boton-vaciar:hover {
     background-color: #c82333;
-}
-
-.boton-comprar:hover {
-    background-color: #0056b3;
 }
