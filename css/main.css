@@ -34,8 +34,6 @@ h1 {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s;
-
-    /* Flexbox para alinear el botón al final */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,14 +42,14 @@ h1 {
 .producto h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    flex-grow: 1; /* Hace que el título ocupe el espacio necesario */
+    flex-grow: 1;
 }
 
 .producto p {
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
-    flex-grow: 1; /* Hace que el texto ocupe el espacio necesario */
+    flex-grow: 1;
 }
 
 .producto button {
@@ -61,7 +59,7 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: auto; /* Esto empuja el botón al fondo */
+    margin-top: auto;
 }
 
 .producto button:hover {
@@ -76,6 +74,21 @@ h1 {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilo para los botones + y - en el carrito */
+.sumar-producto, .restar-producto {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sumar-producto:hover, .restar-producto:hover {
+    background-color: #218838;
 }
 
 /* Responsive */

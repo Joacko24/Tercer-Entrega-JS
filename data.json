@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Air Jordan 1 Retro High OG Washed Black",
+        "precio": 330,
+        "imagen": "img/714988-1200-1200.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Air Jordan 1 Mid",
+        "precio": 230,
+        "imagen": "img/497671-1200-1200.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Air Jordan 1 Retro High OG UNC Toe",
+        "precio": 330,
+        "imagen": "img/732027-1200-1200.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Air Jordan 1 High OG Royal Reimagined",
+        "precio": 330,
+        "imagen": "img/799723-1200-1200.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Air Jordan 1 Mid SE Panda Elephant",
+        "precio": 250,
+        "imagen": "img/811844-1200-1200.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Air Jordan 1 High Satin Bred",
+        "precio": 400,
+        "imagen": "img/812141-1200-1200.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Air Jordan 1 High OG Mauve",
+        "precio": 450,
+        "imagen": "img/810318-1200-1200.webp"
+    },
+    {
+        "id": 8,
+        "nombre": "Air Jordan 1 Mid SE Craft Cement Grey",
+        "precio": 300,
+        "imagen": "img/762500-1200-1200.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "Air Jordan 1 Low SE",
+        "precio": 150,
+        "imagen": "img/971987-1200-1200.webp"
+    },
+    {
+        "id": 10,
+        "nombre": "Air Jordan 4 Retro",
+        "precio": 500,
+        "imagen": "img/497660-1200-1200.webp"
+    }
+]
